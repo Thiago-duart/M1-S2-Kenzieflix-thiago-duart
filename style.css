@@ -65,7 +65,8 @@ h2{
     height: 200px;
     width: 210px;
     background-repeat: no-repeat;
-    background-position: center;  
+    background-position: center;
+    opacity: 0.2;  
 }
 #button-confirm{
     height: 40px;
@@ -92,4 +93,7 @@ h2{
 div:hover{
     border: 1px solid white;
     transition: 0.2s;
+}
+.four:hover{
+    opacity: 1;
 }
