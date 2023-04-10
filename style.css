@@ -67,16 +67,16 @@ body{
 }
 
 .one-img{
-    background-image: url(/img/pink.png);
+    background-image: url(./img/pink.png);
 }
 .two-img{
-    background-image: url(/img/panda.png); 
+    background-image: url(./img/panda.png); 
 }
 .three-img { 
-    background-image: url(/img/robot.png); 
+    background-image: url(./img/robot.png); 
 }
 .four-img{
-    background-image: url(/img/plus.png);
+    background-image: url(./img/plus.png);
     background-size: 55px;
 }
 .text-p{
