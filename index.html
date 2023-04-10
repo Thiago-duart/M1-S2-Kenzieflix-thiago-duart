@@ -1,46 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Kenzieflix</title>
 </head>
+
 <body>
-    <header id="container-header">
-        <figure>
-            <img id="image-header" src="./img/logo.png" alt="KENZIEFLIX">
+    <header>
+        <figure class="img-container">
+            <div >
+                <img class="img-header" src="./img/logo.png" alt="KENZIEFLIX">
+            </div>
+            <div> 
+                <h2 class="sub-title">Quem está assistindo ?</h2>
+            </div>
         </figure>
     </header>
+   
     <main>
-        <section id="sub-title">
-            <h2>Quem está assistindo ?</h2>
-        </section>
-        <section>
-             <form action="" id="form-button">
-                <button id="button-confirm">Gerenciar Perfis</button>
-            </form>
-        </section>
-        <section id="container">
-            <div class="box-image one">
-                
+        <section class="box-container">
+            <div class="box profile m-hover  ">
+                <div class="one-img img-config t"></div>
+                <div><p class="text-p">Aline</p></div>
             </div>
-       
-            <div class="box-image two" id="teste">
-                
-            </div>
-      
-            <div class="box-image three">
-                
-            </div>
-        
-            <div class="four">
-                
-            </div>
-        </section>
-    </main>
 
+            <div class="box  profile m-hover">
+                <div class="two-img img-config t"></div>
+                <div><p class="text-p ">Pedrinho</p></div>
+            </div>
+
+            <div class="box profile m-hover ">
+                <div class="three-img img-config t">
+                </div>
+                <div>
+                    <p class="text-p ">Julia</p>
+                </div>
+            </div>
+
+            <div class="box profile m-hover ">
+                <div class="four-img img-config t">
+                </div>
+                <div>
+                    <p class="text-p ">Adicionar perfil</p>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    <section class="b-profile">
+        <form action="" class="form-buttom" >
+        <button class="buttom-profile" >Gerenciar Perfis</button>
+    </form>
+    </section>
+    
+    
 </body>
+
 </html>

@@ -1,0 +1,126 @@
+body{
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    font-size: 15px;
+    width: 100%;
+    height: 100vh;
+}
+
+/*TITULO E SUB*/
+
+.img-container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    position: absolute;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    bottom: 10rem;
+    text-align: center;
+    gap: 20px;
+}
+
+.img-header{
+    width: 300px;
+}
+
+.sub-title{
+    font-size: 20px;
+}
+
+/*IMAGEM E NOME */
+
+.box-container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-wrap: nowrap;
+    justify-content: center ;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    justify-content: space-between;
+    flex-direction: column;
+    opacity: 0.8;
+    }
+
+.img-config{
+    width: 120px;
+    height: 120px;
+    background-size: 120px;
+    background-color: rgb(35, 35, 35);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 20px;
+    margin-bottom: 3px;
+    border-radius: 5px;
+}
+
+.one-img{
+    background-image: url(/img/pink.png);
+}
+.two-img{
+    background-image: url(/img/panda.png); 
+}
+.three-img { 
+    background-image: url(/img/robot.png); 
+}
+.four-img{
+    background-image: url(/img/plus.png);
+    background-size: 55px;
+}
+.text-p{
+    cursor: default;
+}
+
+.m-hover:hover{
+    opacity: 1;
+}
+.t:hover{
+    border: 1px solid white;
+}
+
+/*BOTÃO*/
+
+.buttom-profile{
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+    border: 1px white solid;
+}
+.buttom-profile:hover{
+    background-color: white;
+    color: black;
+    transition: 0.2s;
+}
+.b-profile{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    bottom: 25%;
+    z-index: 2;
+}
+.buttom-profile{
+    display: none;
+}
+@media (min-height: 400px) {
+    .buttom-profile{
+        display: block;
+    }
+}
+
+
